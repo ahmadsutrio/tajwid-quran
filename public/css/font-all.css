@@ -1,0 +1,111 @@
+@import url(//fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(//fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(//fonts.googleapis.com/earlyaccess/thabit.css);
+
+@font-face {
+  font-family: 'MeQuran';
+  src: url('//cdn.alquran.cloud/public/fonts/me_quran-webfont.otf');
+}
+
+.font-mequran {
+    font-family: 'MeQuran';
+}
+
+@font-face {
+  font-family: 'MeQuran2';
+  src: url('//cdn.alquran.cloud/public/fonts/me_quran_2.ttf');
+}
+
+.font-mequran2 {
+    font-family: 'MeQuran2';
+}
+
+@font-face {
+  font-family: 'NooreHidayah';
+  src: url('//cdn.alquran.cloud/public/fonts/noorehidayat.ttf');
+}
+
+.font-nh {
+    font-family: 'NooreHidayah';
+}
+
+@font-face {
+  font-family: 'Othmani';
+  src: url('//cdn.alquran.cloud/public/fonts/ar-Othmani.ttf');
+}
+
+.font-othmani {
+    font-family: 'Othmani';
+}
+
+@font-face {
+  font-family: 'Quran';
+  src: url('//cdn.alquran.cloud/public/fonts/QUR_STD.TTF');
+}
+
+.font-quran {
+    font-family: 'Quran';
+}
+
+@font-face {
+    font-family: 'Uthmani';
+    src: url("//cdn.alquran.cloud/public/fonts/uthman_tn09.otf") format("opentype");
+}
+
+.font-uthmani {
+  font-family: 'Uthmani', serif;
+}
+
+@font-face {
+    font-family: 'Scheherazade';
+    src: url("//cdn.alquran.cloud/public/fonts/Scheherazade-webfont.ttf");
+}
+
+.font-scheherazade {
+    font-family: 'Scheherazade';
+}
+
+@font-face {
+    font-family: 'Naskh';
+    src: url("//cdn.alquran.cloud/public/fonts/kfc_naskh-webfont.ttf");
+}
+
+.font-naskh {
+    font-family: 'Naskh';
+}
+
+@font-face {
+    font-family: 'Kitab';
+    src: url("//cdn.alquran.cloud/public/fonts/Kitab-Regular.ttf");
+}
+
+.font-kitab {
+    font-family: 'Kitab';
+}
+
+@font-face {
+    font-family: 'Kitab Bold';
+    src: url("//cdn.alquran.cloud/public/fonts/Kitab-Bold.ttf");
+}
+
+.font-kitab-bold {
+    font-family: 'Kitab Bold';
+}
+
+.font-amiri {
+    font-family: 'Amiri', serif;
+}
+
+.font-droid-arabic-kufi {
+    font-family: 'Droid Arabic Kufi', serif;
+}
+
+.font-droid-arabic-naskh {
+    font-family: 'Droid Arabic Naskh', serif;
+}
+
+.font-thabit {
+    font-family: 'Thabit', serif;
+}
+
