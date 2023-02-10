@@ -128,7 +128,7 @@ div.container {
 }
 
 .surah-bracket-sign {
-    font-family: 'Simplified Arabic','Traditional Arabic','Simplified Arabic Fixed',KacstOne,'XP Vosta',Harmatta,'Iranian Sans','Arabic Typesetting',Scheherazade,Lateef,'Droid Arabic Naskh','Noto Naskh Arabic'; font-size: 125%">﴿</span> <?= $surah->data->name; ?> <span style="font-family: 'Simplified Arabic','Traditional Arabic','Simplified Arabic Fixed',KacstOne,'XP Vosta',Harmatta,'Iranian Sans','Arabic Typesetting',Scheherazade,Lateef,'Droid Arabic Naskh','Noto Naskh Arabic';
+    font-family: 'Simplified Arabic','Traditional Arabic','Simplified Arabic Fixed',KacstOne,'XP Vosta',Harmatta,'Iranian Sans','Arabic Typesetting',Scheherazade,Lateef,'Droid Arabic Naskh','Noto Naskh Arabic'; 
     font-size: 125%;
 }
 

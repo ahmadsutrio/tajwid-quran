@@ -93,13 +93,29 @@ tajweed.madda_necessary {
 
   color: #000ebc;
 }
+tajweed.madda_necessary:hover {
+  /* color: #757575; */
+  cursor: pointer;
+  color: #000ebc;
+}
 
 tajweed.madda_obligatory {
   color: #2144c1;
   /* color: #757575; */
 }
+tajweed.madda_obligatory:hover {
+  cursor: pointer;
+  color: #2144c1;
+  /* color: #757575; */
+}
 
 tajweed.madda_permissible {
+  /* color: #757575; */
+  
+  color: #4050ff;
+}
+tajweed.madda_permissible:hover {
+  cursor: pointer;
   /* color: #757575; */
 
   color: #4050ff;

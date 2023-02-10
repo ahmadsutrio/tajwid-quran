@@ -42,7 +42,7 @@ class Tajweed
                 'default_css_class' => 'ham_wasl',
                 'html_color' => '#AAAAAA',
                 // 'html_color' => '#777777',
-                'title' => 'Hamzah washal : hanya diucapkan ketika menjadi permulaan kata, namun lebur (tidak dibaca) ketika berada di tengah kalimat'
+                'title' => 'Hamzah washal : hanya diucapkan ketika menjadi permulaan kata, namun lebur (tidak dibaca) ketika berada di tengah kalimat.'
             ],
             self::SILENT => [
                 'identifier' => '[s',
@@ -52,7 +52,7 @@ class Tajweed
                 'html_color' => '#AAAAAA',
                 // 'html_color' => '#777777',
 
-                'title' => 'Diam : Huruf al-madd semua harus diam, yaitu tidak memiliki diakritik pada mereka'
+                'title' => 'Silent'
             ],
             self::LAAM_SHAMSIYAH => [
                 'identifier' => '[l',
@@ -62,7 +62,7 @@ class Tajweed
                 'html_color' => '#AAAAAA',
                 // 'html_color' => '#777777',
 
-                'title' => 'Alif Lam Syamsiyah :  hukum bacaan tersebut akan terjadi apabila alif lam bertemu dengan salah satu dari huruf syamsiyah.'
+                'title' => 'Lam Shamsiyyah'
             ],
             self::MADDA_NORMAL => [
                 'identifier' => '[n',
@@ -72,7 +72,7 @@ class Tajweed
                 'html_color' => '#537FFF',
                 // 'html_color' => '#777777',
 
-                'title' => 'Perpanjangan Normal: 2 Harakat'
+                'title' => 'Perpanjangan Normal: 2 Vokal'
             ],
             self::MADDA_PERMISSIBLE => [
                 'identifier' => '[p',
@@ -82,7 +82,7 @@ class Tajweed
                 'html_color' => '#4050FF',
                 // 'html_color' => '#777777',
 
-                'title' => 'Perpanjangan yang Diijinkan: 2, 4, 6 Harakat'
+                'title' => 'Perpanjangan yang Diijinkan: 2, 4, 6 Vokal'
             ],
             self::MADDA_NECESSARY => [
                 'identifier' => '[m',
@@ -92,7 +92,7 @@ class Tajweed
                 'html_color' => '#000EBC',
                 // 'html_color' => '#777777',
 
-                'title' => 'Perpanjangan yang Diperlukan: 6 Harakat'
+                'title' => 'Perpanjangan yang Diperlukan: 6 Vokal'
             ],
             self::QALAQAH => [
                 'identifier' => '[q',
@@ -102,7 +102,7 @@ class Tajweed
                 'html_color' => '#DD0008',
                 // 'html_color' => '#777777',
 
-                'title' => 'Qalaqah : adalah bacaan pada huruf-huruf kalkalah dengan bunyi seakan-akan berdetik atau memantul'
+                'title' => 'Qalaqah'
             ],
             self::MADDA_OBLIGATORY => [
                 'identifier' => '[o',
@@ -112,7 +112,7 @@ class Tajweed
                 'html_color' => '#2144C1',
                 // 'html_color' => '#777777',
 
-                'title' => 'Perpanjangan Wajib: 4-5 Harakat'
+                'title' => 'Perpanjangan Wajib: 4-5 Vokal'
             ],
             self::IKHAFA_SHAFAWI => [
                 'identifier' => '[c',
@@ -122,17 +122,17 @@ class Tajweed
                 'html_color' => '#D500B7',
                 // 'html_color' => '#777777',
 
-                'title' => 'Ikhfa\' Shafawi - Dengan Mim'
+                'title' => 'Ikhafa Shafawi - Dengan Miim'
             ],
             self::IKHAFA => [
                 'identifier' => '[f',
-                'type' => 'ikhafa',
-                'description' => 'Ikhafa\'',
+                'type' => 'ikhfa',
+                'description' => 'Ikhfa\'',
                 'default_css_class' => 'ikhf',
                 'html_color' => '#9400A8',
                 // 'html_color' => '#777777',
 
-                'title' => 'Ikhfa artinya menyembunyikan atau menyamarkan'
+                'title' => 'iKhfa\''
             ],
             self::IDGHAM_SHAFAWI => [
                 'identifier' => '[w',
@@ -142,7 +142,7 @@ class Tajweed
                 'html_color' => '#58B800',
                 // 'html_color' => '#777777',
 
-                'title' => 'Idgham Shafawi - Dengan Mim'
+                'title' => 'Idgham Shafawi - Dengan Miim'
             ],
             self::IQLAB => [
                 'identifier' => '[i',
@@ -152,7 +152,7 @@ class Tajweed
                 // 'html_color' => '#777777',
 
                 'html_color' => '#26BFFD',
-                'title' => 'Iqlab : adalah mengganti. Dengan kata lain Apabila ada huruf Nun mati atau tanwin bertemu denga huruf ba maka hukum bacaan tajwidnya adalah Iqlab'
+                'title' => 'Iqlab'
             ],
             self::IDGHAM_GHUNNAH => [
                 'identifier' => '[a',
@@ -160,7 +160,7 @@ class Tajweed
                 'description' => 'Idgham - With Ghunnah',
                 'default_css_class' => 'idgh_ghn',
                 'html_color' => '#169777',
-                'title' => 'Idgham bighunnah adalah membunyikan nun mati atau tanwin dengan memasukkannya pada huruf setelahnya dan dibaca dengan mendengung.'
+                'title' => 'Idgham - Dengan Ghunnah'
             ],
             self::IDGHAM_NO_GHUNNAH => [
                 'identifier' => '[u',
@@ -168,7 +168,7 @@ class Tajweed
                 'description' => 'Idgham - Without Ghunnah',
                 'default_css_class' => 'idgh_w_ghn',
                 'html_color' => '#169200',
-                'title' => 'Idgham bilagunnah maka harus dibaca idgham tanpa disertai dengung di hidung (gunnah)'
+                'title' => 'Idgham - Tanpa Ghunnah'
             ],
             self::IDGHAM_MUTAJANISAYN => [
                 'identifier' => '[d',
@@ -176,7 +176,7 @@ class Tajweed
                 'description' => 'Idgham - Mutajanisayn',
                 'default_css_class' => 'idgh_mus',
                 'html_color' => '#A1A1A1',
-                'title' => 'Idgham Mutajanisain yaitu pertemuan antara dua huruf yang sama makhrajnya (tempat keluarnya huruf) tetapi tidak sama sifatnya. Huruf pertama sukun dan huruf kedua berbaris.'
+                'title' => 'Idgham - Mutajanisayn'
             ],
             self::IDGHAM_MUTAQARIBAYN => [
                 'identifier' => '[b',
@@ -184,16 +184,15 @@ class Tajweed
                 'description' => 'Idgham - Mutaqaribayn',
                 'default_css_class' => 'idgh_mus',
                 'html_color' => '#A1A1A1',
-                'title' => 'Idgham Mutaqaribain artinya memasukkan, sementara mutaqaribain artinya dua huruf yang berdekatan'
+                'title' => 'Idgham - Mutaqaribayn'
             ],
             self::GHUNNAH => [
                 'identifier' => '[g',
                 'type' => 'ghunnah',
-                'description' => 'Ghunnah: 2 Vowels',
+                'description' => 'Ghunnah: 2 Vokal',
                 'default_css_class' => 'ghn',
                 'html_color' => '#FF7E1E',
-                'title' => 'Ghunnah: 2 Harakat',
-
+                'title' => 'Ghunnah: 2 Vokal'
             ],
 
         ];
@@ -237,6 +236,7 @@ class Tajweed
             title="' . $meta['title'] . '" data-type="' . $meta['type'] . '" data-description="' . $meta['description'] . '" data-tajweed="',
                 $text
             );
+
         return $text;
     }
 
@@ -277,10 +277,6 @@ class Tajweed
      */
     public function closeParsing($text)
     {
-        $span = '<span class="font-kitab bg-white mt-1 shadow style-ayah py-3 px-3 rounded-3" style="direction: rtl;  font-size: 150%;">';
-        // $span = "<span>";
-        // $closeSpan = "</span>";
-        $closeSpan = "</span>";
         $text = str_replace(['[', ']'], ['">', '</tajweed>'], $text);
 
         return $text;

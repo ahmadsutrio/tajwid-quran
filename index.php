@@ -1,73 +1,26 @@
-<?php require_once('views/common/header-home.php'); ?>
-<?php require_once('views/common/navigation-home.php'); ?>
-<?php // ================================================================ // ?>
-<div class="container home">
-    <style>
-        .home{
-            border: black 1px solid;
-            border-radius: 10px;
-      
-        }
-    </style>
-    <div class="lead font-kitab align-center" style="margin: 30px 0 10px 0;">
-        بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
-    </div>
-  <h2 class="text-center">
-    SISTEM PENDETEKSI TAJWID AL-QUR'AN
-  </h2>
-  <div class="row text-center">
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <div>
-        <h3>Tajwid 30 JUZ</h3>
-        <p>
-            
-        </p>
-        <p>
-            <a href="./views/tajweed-30-juz.php" class="btn btn-primary">DETEKSI TAJWID 30 JUZ</a>
-        </p>
+<?php require_once('views/common/header.php'); ?>
+
+<!-- Content -->
+<main class="container py-5 mt-5">
+    <div class="row justify-content-center gap-3 py-5 " style="border-radius:20px; background-color:#ebeff1;">
+        <div class="col-8">
+            <div class="row justify-content-center">
+                <a href="views/30juz.php" class="col-lg-4 ">
+                    <img src="public/images/quran.png" class="img-fluid rounded-3" alt="">
+                </a>
+                <div class="col-lg-4 ">
+                    <div class="row ">
+                        <a href="views/listsurah.php" class="col-12  ">
+                            <img src="public/images/listsurah.png" class="rounded-3 img-fluid" alt="" srcset="">
+                        </a>
+                        <a href="views/deteksitajwid.php" class="col-12 mt-4 ">
+                            <img src="public/images/listtajwid.png" class="rounded-3 img-fluid" alt="" srcset="">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <div>
-        <h3>Tajwid Al-Faatiha</h3>
-        <p>
-            
-        </p>
-        <p>
-            <a href="./views/tajweed-al-faatiha.php" class="btn btn-primary">DETEKSI TAJWID SURAH AL-FAATIHA</a>
-        </p>
-        </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <div>
-        <h3>Tajwid An-nur</h3>
-        <p>
-            
-        </p>
-        <p>
-            <a href="./views/tajweed-an-nur.php" class="btn btn-primary">DETEKSI TAJWID SURAH AN-NUR</a>
-        </p>
-        </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <div>
-        <h3>Tajwid Idgham Pada Surah An-nur</h3>
-        <p>
-            
-        </p>
-        <p>
-            <a href="./views/tajweed-an-nur-idgham.php" class="btn btn-primary">DETEKSI TAJWID Idgham Surah AN-NUR</a>
-        </p>
-        </div>
-    </div>
+</main>
 
-  
-
-  </div>
-
-</div>
-
-
-
-<?php // ================================================================ // ?>
 <?php require_once('views/common/footer.php'); ?>
